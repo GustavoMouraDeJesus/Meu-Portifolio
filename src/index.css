@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.text-cut {
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.stroke-letter {
+  -webkit-text-stroke: 5px rgba(255, 255, 255, 0.9);
+}
+.social-glow:hover {
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.18);
+  transform: translateY(-3px);
+}
