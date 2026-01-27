@@ -5,7 +5,7 @@ import ScrollDown from "./ScrollDown";
 export default function Hero() {
   const name = "Gustavo Moura".split("");
   const descricao =
-    "Desenvolvedor Web focado em criar soluções funcionais, acessíveis e bem estruturadas. Tenho experiência com projetos reais, trabalho em equipe e foco em aprendizado contínuo.".split("");
+    "Desenvolvedor Web focado em criar soluções funcionais, acessíveis e bem estruturadas. Tenho experiência com projetos reais, trabalho em equipe e foco em aprendizado contínuo.";
 
   const [opacity, setOpacity] = useState(1);
   const [translateY, setTranslateY] = useState(0);
@@ -45,7 +45,7 @@ export default function Hero() {
 
         {/* DESCRIÇÃO */}
         <p className="font-normal text-xl md:text-2xl max-w-4xl mt-6 text-center text-white leading-relaxed">
-          {descricao.join("")}
+          {descricao}
         </p>
 
         <Social
