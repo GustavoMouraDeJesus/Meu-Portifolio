@@ -1,6 +1,7 @@
 import ParticlesBackground from "./components/ParticlesBackground";
 import Hero from "./components/header";
 import Projetos from "./components/Projetos";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -12,12 +13,13 @@ function App() {
       </div>
 
       {/* OVERLAY ESCURO — fixo no site inteiro */}
-      <div className="fixed inset-0 bg-black/70 -z-10 pointer-events-none" />
+      <div className="fixed inset-0 bg-black/50 -z-10 pointer-events-none" />
 
       {/* CONTEÚDO — sempre na frente */}
       <div className="relative z-10">
         <Hero />
         <Projetos />
+        <Skills />
       </div>
 
     </div>

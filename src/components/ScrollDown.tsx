@@ -17,7 +17,7 @@ export default function ScrollDown() {
 
   return (
     <a onClick={handleClick} href="#sobre" className="mt-80 z-20 inline-block">
-      <FiChevronDown size={48} className="text-white opacity-80 animate-bounce cursor-pointer" />
+      <FiChevronDown size={48} className="text-white opacity-80 animate-bounce cursor-pointer -mt-48" />
     </a>
   );
 }
