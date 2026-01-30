@@ -2,7 +2,7 @@ import ParticlesBackground from "./components/ParticlesBackground";
 import Hero from "./components/header";
 import Projetos from "./components/Projetos";
 import Skills from "./components/Skills";
-import Footer from "./components/footer"
+import footer from "./components/Footer"
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Hero />
         <Projetos />
         <Skills />
-        <Footer />
+        <footer />
       </div>
 
     </div>

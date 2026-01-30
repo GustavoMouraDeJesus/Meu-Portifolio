@@ -1,34 +1,34 @@
-import Social from "./Social";
+import Social from "./social";
 import { useEffect, useRef, useState } from "react";
 
-export default function Footer() {
+export default function footer() {
 
-    const sectionRef = useRef<HTMLElement | null>(null);
-      const [opacity, setOpacity] = useState(0);
-      const [translateY, setTranslateY] = useState(40);
-    
-      useEffect(() => {
-        const handleScroll = () => {
-          if (!sectionRef.current) return;
-    
-          const rect = sectionRef.current.getBoundingClientRect();
-          const windowHeight = window.innerHeight;
-    
-          
-          const progress = Math.min(
-            Math.max((windowHeight - rect.top) / windowHeight, 0),
-            1
-          );
-    
-          setOpacity(progress);
-          setTranslateY((1 - progress) * 40);
-        };
-    
-        window.addEventListener("scroll", handleScroll);
-        handleScroll(); // garante estado inicial
-    
-        return () => window.removeEventListener("scroll", handleScroll);
-      }, []);
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [opacity, setOpacity] = useState(0);
+  const [translateY, setTranslateY] = useState(40);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!sectionRef.current) return;
+
+      const rect = sectionRef.current.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+
+      const progress = Math.min(
+        Math.max((windowHeight - rect.top) / windowHeight, 0),
+        1
+      );
+
+      setOpacity(progress);
+      setTranslateY((1 - progress) * 40);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // garante estado inicial
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <footer className="border-t border-white/10 py-8 text-white">
