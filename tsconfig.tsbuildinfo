@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/footer.tsx","./src/components/particlesbackground.tsx","./src/components/projetos.tsx","./src/components/skills.tsx","./src/components/header.tsx","./src/components/scrolldown.tsx","./src/components/social.tsx","./src/hooks/usereveal.ts","./src/hooks/usevanta.ts","./src/lib/lenis.ts"],"version":"5.9.3"}
