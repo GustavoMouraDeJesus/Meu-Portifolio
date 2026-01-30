@@ -1,7 +1,7 @@
 import Social from "./social";
 import { useEffect, useRef, useState } from "react";
 
-export default function footer() {
+export default function Footer() {
 
   const sectionRef = useRef<HTMLElement | null>(null);
   const [opacity, setOpacity] = useState(0);
