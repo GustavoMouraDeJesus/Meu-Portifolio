@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Social from "./social";
-import ScrollDown from "./scrolldown";
+import Social from "./Social";
+import ScrollDown from "./ScrollDown";
 
 export default function Hero() {
   const name = "Gustavo Moura".split("");

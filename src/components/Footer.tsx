@@ -1,4 +1,4 @@
-import Social from "./social";
+import Social from "./Social";
 import { useEffect, useRef, useState } from "react";
 
 export default function Footer() {
