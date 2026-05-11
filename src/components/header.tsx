@@ -33,7 +33,7 @@ export default function Header() {
           transform: `translateY(-${translateY}px)`
         }}
       >
-        <h2 className="font-extrabold tracking-widest text-2xl md:text-3xl mb-1 mt-56 text-white">
+        <h2 className="font-extrabold tracking-widest text-2xl md:text-3xl mb-1 mt-57 text-white">
           Opa, meu nome é
         </h2>
 
