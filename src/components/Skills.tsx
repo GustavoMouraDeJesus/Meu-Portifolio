@@ -49,21 +49,29 @@ export default function Skills() {
           {/* HARD SKILLS */}
           <div>
             <h3 className="text-6xl font-bold mb-6 mt-11">Hard Skills</h3>
-            <div className=" flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
               {[
-                "HTML5",
-                "CSS3",
-                "JavaScript",
+                "Front-End Developer",
+                "Scrum-Master",
+                "HTML5 Avançado",
+                "CSS3 Avançado",
+                "ReactJS",
+                "javaScript",
+                "Java",
+                "Node.Js",
                 "TypeScript",
-                "React",
-                "Tailwind CSS",
-                "Git",
+                "TaildWind CSS",
+                "Canva",
                 "Figma",
-                "Acessibilidade",
+                "Tecnólogo em Logística",
+                "Excel Avançado",
+                "Administração",
+                "Ex-Proano",
+
               ].map((skill) => (
                 <span
                   key={skill}
-                  className="px-4 py-2 border border-white/30 rounded-md text-sm hover:bg-white hover:text-black transition text-[1.7rem]
+                  className="px-4 py-2 border border-white/30 rounded-md text-sm hover:bg-white hover:text-black transition text-[1.6rem]
 "
                 >
                   {skill}
@@ -81,6 +89,10 @@ export default function Skills() {
               <li>✔ Aprendizado contínuo</li>
               <li>✔ Organização e responsabilidade</li>
               <li>✔ Resolução de problemas</li>
+              <li>✔ Adaptabilidade</li>
+              <li>✔ Pensamento crítico</li>
+              <li>✔ Ética profissional</li>
+              <li>✔ Tomada de decisão</li>
             </ul>
           </div>
         </div>

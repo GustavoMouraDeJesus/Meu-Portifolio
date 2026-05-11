@@ -7,7 +7,7 @@ type Projeto = {
   id: number;
   titulo: string;
   descricao: string;
-  video: string;
+  imagem: string;
   link: string;
 };
 
@@ -20,24 +20,24 @@ const projetos: Projeto[] = [
     titulo: "AprovAI",
     descricao:
       "O AprovAI é uma plataforma desenvolvida para auxiliar estudantes na preparação para provas e avaliações utilizando inteligência artificial.",
-    video: "/videos/Aprovai.mp4",
+    imagem: "/Fotos/AprovaIA.png",
     link: "https://gustavomouradejesus.github.io/AprovaIA/",
   },
   {
     id: 2,
-    titulo: "Projeto 2",
+    titulo: "Troquin",
     descricao:
-      "Projeto focado em boas práticas de desenvolvimento frontend com React e TypeScript.",
-    video: "/videos/AprovaIA.mp4",
-    link: "https://exemplo.com",
+      "O objetivo do projeto é simplificar e ensinar o básico sobre investimento, focando principalmente em atingir pessoas de baixa renda. Queríamos mostrar que, com a ferrementa certa, qualquer pessoa pode começar a investir e melhorar sua situação financeira.",
+    imagem: "/Fotos/Troquin.png",
+    link: "https://gustavomouradejesus.github.io/Troquin/index.html ",
   },
   {
     id: 3,
-    titulo: "Projeto 3",
+    titulo: "Librali",
     descricao:
-      "Aplicação desenvolvida com foco em acessibilidade, performance e experiência do usuário.",
-    video: "/videos/Aprovai.mp4",
-    link: "https://exemplo.com",
+      "A Librali foi desenvolvida com a missão de conectar interpretes de libras a pessoas que precisam desse tipo de serviço com mais facilidade, além disso, trazer mais visibilidade para esses profissionais que são tão ofuscados pela falta de plataformas como a Librali",
+    imagem: "/Fotos/Librali.png",
+    link: "https://librali-front-end-pi.vercel.app",
   },
 ];
 
@@ -105,12 +105,14 @@ export default function Projetos() {
               }`}
             >
               <div className="relative w-full max-w-7xl aspect-video bg-black rounded-sm overflow-hidden">
-                <video
-                  src={projeto.video}
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
+                <img
+                  src={projeto.imagem}
+                  alt={projeto.titulo}
+                  className="w-full h-full object-contain"
+                />
+                <img
+                  src={projeto.imagem}
+                  alt={projeto.titulo}
                   className="w-full h-full object-contain"
                 />
               </div>

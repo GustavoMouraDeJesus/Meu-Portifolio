@@ -1,5 +1,5 @@
 import ParticlesBackground from "./components/ParticlesBackground";
-import Hero from "./components/header";
+import Hero from "./components/Header";
 import Projetos from "./components/Projetos";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
