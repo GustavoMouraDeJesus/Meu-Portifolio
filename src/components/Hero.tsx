@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ScrollDown from "./ScrollDown";
 import Social from "./Social";
 
-export default function Header() {
+export default function Hero() {
   const [abrirCarta, setAbrirCarta] = useState(false);
   const name = "Gustavo Moura".split("");
   const descricao =
