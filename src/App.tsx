@@ -1,5 +1,5 @@
 import ParticlesBackground from "./components/ParticlesBackground";
-import Hero from "./components/Header";
+import Header from "./components/Header";
 import Projetos from "./components/Projetos";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
@@ -18,7 +18,7 @@ function App() {
 
       {/* CONTEÚDO — sempre na frente */}
       <div className="relative z-10">
-        <Hero />
+        <Header />
         <Projetos />
         <Skills />
         <Footer />
