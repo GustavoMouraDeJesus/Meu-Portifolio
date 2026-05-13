@@ -38,19 +38,19 @@ Projeto hospedado na Vercel:
 ### Apresentação
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/GustavoMouraDeJesus/Meu-Portifolio/master/readme/apresentacao.png](https://raw.githubusercontent.com/GustavoMouraDeJesus/Meu-Portifolio/refs/heads/master/readme/Apresentacao.png" width="900"/>
-</p>
-
-### Skills
-
-<p align="center">
-  <img src="./readme/skills.png" width="900"/>
+  <img src="./readme/Apresentacao.png" width="900"/>
 </p>
 
 ### Projetos
 
 <p align="center">
-  <img src="./readme/projetos.png" width="900"/>
+  <img src="./readme/Projetos.png" width="900"/>
+</p>
+
+### Skills
+
+<p align="center">
+  <img src="./readme/Skills.png" width="900"/>
 </p>
 
 ## 👨‍💻 Autor
