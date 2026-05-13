@@ -35,7 +35,29 @@ Projeto hospedado na Vercel:
 
 ## 📸 Preview
 
-<!-- Coloque aqui prints do projeto -->
+## 📸 Preview
+
+### Apresentação
+
+<p align="center">
+  <img src="./public/readme/apresentacao.png" width="900"/>
+</p>
+
+---
+
+### Skills
+
+<p align="center">
+  <img src="./public/readme/skills.png" width="900"/>
+</p>
+
+---
+
+### Projetos
+
+<p align="center">
+  <img src="./public/readme/projetos.png" width="900"/>
+</p>
 
 ## 👨‍💻 Autor
 
