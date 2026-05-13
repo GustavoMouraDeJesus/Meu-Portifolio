@@ -1,73 +1,44 @@
-# React + TypeScript + Vite
+# Gustavo Moura | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio desenvolvido com o objetivo de apresentar minhas habilidades, projetos e evolução na área de desenvolvimento web. O projeto foi criado utilizando tecnologias modernas do ecossistema Front-End, com foco em performance, responsividade e uma interface moderna.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- TypeScript
+- JavaScript
+- TailwindCSS
 
-## React Compiler
+## 🎯 Objetivo do projeto
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+A principal proposta deste portfólio é demonstrar minhas habilidades como desenvolvedor web, destacando meus conhecimentos técnicos, projetos desenvolvidos e minha evolução na área da tecnologia.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Interface moderna e responsiva
+- Animações suaves
+- Sessão de habilidades
+- Links para redes sociais
+- Download de currículo
+- Carta de apresentação
+- Efeitos visuais interativos
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌐 Deploy
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Projeto hospedado na Vercel:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+[Visualizar Projeto](https://meu-portifolio-three-alpha.vercel.app?utm_source=chatgpt.com)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📂 Repositório
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+[GitHub do Projeto](https://github.com/GustavoMouraDeJesus/Meu-Portifolio?utm_source=chatgpt.com)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Preview
+
+<!-- Coloque aqui prints do projeto -->
+
+## 👨‍💻 Autor
+
+Gustavo Moura
+
+- GitHub: [@GustavoMouraDeJesus](https://github.com/GustavoMouraDeJesus?utm_source=chatgpt.com)
