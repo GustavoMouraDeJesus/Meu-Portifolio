@@ -38,7 +38,7 @@ Projeto hospedado na Vercel:
 ### Apresentação
 
 <p align="center">
-  <img src="./readme/apresentacao.png" width="900"/>
+  <img src="[https://raw.githubusercontent.com/GustavoMouraDeJesus/Meu-Portifolio/master/readme/apresentacao.png](https://raw.githubusercontent.com/GustavoMouraDeJesus/Meu-Portifolio/refs/heads/master/readme/Apresentacao.png" width="900"/>
 </p>
 
 ### Skills
