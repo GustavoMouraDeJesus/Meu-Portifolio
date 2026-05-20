@@ -5,8 +5,12 @@ import Social from "./Social";
 export default function Hero() {
   const [abrirCarta, setAbrirCarta] = useState(false);
   const name = "Gustavo Moura".split("");
-  const descricao =
-    "Desenvolvedor Web focado em criar soluções funcionais, acessíveis e bem estruturadas. Tenho experiência com projetos reais, trabalho em equipe e foco em aprendizado contínuo. ";
+  const descricao = `
+Desenvolvedor Web focado em criar soluções funcionais, acessíveis e modernas.Formado em Desenvolvimento Web Java pelo Instituto PROA e estudante de Engenharia de Software.
+
+🚀 Em busca de uma oportunidade na área de tecnologia.
+📍 São Paulo - SP
+`;
 
   const [opacity, setOpacity] = useState(1);
   const [translateY, setTranslateY] = useState(0);
@@ -48,7 +52,7 @@ export default function Hero() {
 
 
         {/* DESCRIÇÃO */}
-        <p className="font-extrabold text-xl md:text-2xl max-w-4xl mt-16 text-center text-white leading-relaxed">
+        <p className="font-extrabold text-xl md:text-2xl max-w-4xl mt-16 text-center text-white leading-relaxed whitespace-pre-line">
           {descricao}
         </p>
 
@@ -106,11 +110,15 @@ export default function Hero() {
               <p className="text-zinc-300 leading-relaxed text-2xl">
                 Olá, meu nome é Gustavo Moura, tenho 22 anos sou formado em Desenvolvimento Web Java pelo Instituto Proa com conclusão no 2 semestre de 2025 e estudante de Engenharia De Software pela Anhanguera.
 
-                Atuei como Scrum Master em um projeto acadêmico denominado Librali realizado durante o curso do Instituto Proa, aplicando metodologias ágeis na organização, acompanhamento e entrega de atividades da equipe.
+                Atuei como Scrum-Master em um projeto acadêmico denominado Librali realizado durante o curso do Instituto Proa, aplicando metodologias ágeis na organização, acompanhamento e entrega de atividades da equipe.
 
                 Possuo conhecimento em Excel Avançado, Administração Básica e Desenvolvimento Front-End, com habilidade em JavaScript, React, Node.js, Figma, Canva e aprendendo TypeScript e Tailwind CSS.
 
                 Perfil dedicado, proativo e comprometido com resultados, com forte capacidade de liderança, organização de equipes, distribuição eficiente de tarefas e boa comunicação oral e escrita.
+
+                Busco oportunidades para aplicar minhas habilidades, aprender e crescer profissionalmente, contribuindo para o sucesso da empresa e meu desenvolvimento pessoal. 
+
+                fico à disposição para uma conversa e agradeço pela consideração.
               </p>
             </div>
           </div>
@@ -118,6 +126,9 @@ export default function Hero() {
 
         <ScrollDown />
       </div>
+
+      
+
     </section>
   );
 }
