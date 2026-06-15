@@ -64,7 +64,7 @@ Desenvolvedor Web focado em criar soluções funcionais, acessíveis e modernas.
         />
 
         <a
-          href="/MeuCurriculo.pdf"
+          href="/Curriculo_Gustavo_Moura.pdf"
           target="_blank"
           className="
     mt-20 px-8 py-4
